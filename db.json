@@ -1,19 +1,55 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username": "rani",
+      "avatar": "https://tse4.mm.bing.net/th/id/OIP.R-LeREHk7U-smuFlKPqlSwHaFl?w=241&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "email": "rani@gmail.com",
+      "password": "2211",
+      "id": 1
+    },
+    {
+      "username": "sagarika",
+      "avatar": "https://tse4.mm.bing.net/th/id/OIP.R-LeREHk7U-smuFlKPqlSwHaFl?w=241&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "email": "sagarika@gmail.com",
+      "password": "2211",
+      "id": 2
+    },
+    {
+      "username": "sonu",
+      "avatar": "https://tse4.mm.bing.net/th/id/OIP.R-LeREHk7U-smuFlKPqlSwHaFl?w=241&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "email": "sonu@gmail.com",
+      "password": "9988",
+      "id": 3
     }
   ],
-  "comments": [
+  "question": {
+    "userAvatar": "user_avatar.png",
+    "username": "JohnDoe123",
+    "questionTitle": "How to sort an array in JavaScript?",
+    "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+    "language": "JavaScript",
+    "upvotes": 10,
+    "answers": 3,
+    "postedDate": "2023-05-30"
+  },
+  "answers": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "userAvatar": "user_avatar2.png",
+      "username": "JaneSmith456",
+      "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+      "postedDate": "2023-05-31"
+    },
+    {
+      "userAvatar": "user_avatar3.png",
+      "username": "SamJohnson789",
+      "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+      "postedDate": "2023-06-01"
+    },
+    {
+      "userAvatar": "user_avatar4.png",
+      "username": "EmilyBrownXYZ",
+      "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+      "postedDate": "2023-06-01"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
